@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="icon" href="./images/AG.svg" type="image/gif" sizes="16x16" />
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Веб-разработчик Артём Гусев</title>
+    <meta content="Артём Гусев - веб-разработчик" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="" name="author" />
+    <!-- CSS Files ================================================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+      id="bootstrap"
+    />
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <style>
+      :root {
+        --primary-color: #cf1f1f;
+        --primary-color-rgb: 207, 31, 31;
+      }
+    </style>
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    <!-- CSS Files ================================================ -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-82MDS9L877"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-82MDS9L877");
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(92504957, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/92504957"
+          style="position: absolute; left: -9999px"
+          alt="yandex-metrika"
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </head>
+  <!-------------------------- BODY--------------------------------------------->
+  <body class="onepage dark-scheme">
+    <div id="wrapper">
+      <!-- header begin -->
+      <header class="transparent">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="de-flex sm-pt10">
+                <div class="de-flex-col">
+                  <div class="de-flex-col">
+                    <!-- logo begin -->
+                    <div id="logo">
+                      <a href="index.html">
+                        <img
+                          alt="artemgusev"
+                          class="logo"
+                          src="./images/logo.svg"
+                          width="138"
+                          height="40"
+                        />
+                        <img
+                          alt="artemgusev"
+                          class="logo-2"
+                          src="./images/logo.svg"
+                          width="138"
+                          height="40"
+                        />
+                      </a>
+                    </div>
+                    <!-- logo close -->
+                  </div>
+                </div>
+                <div class="de-flex-col header-col-right">
+                  <ul id="mainmenu">
+                    <li>
+                      <a class="active" href="#top">Главная<span></span></a>
+                    </li>
+                    <li>
+                      <a href="#section-about">Обо мне<span></span></a>
+                    </li>
+                    <li>
+                      <a href="#section-services">Этапы работы<span></span></a>
+                    </li>
+                    <li>
+                      <a href="#section-portfolio">Портфолио<span></span></a>
+                    </li>
+
+                    <li>
+                      <a href="#section-contact">Контакты<span></span></a>
+                    </li>
+                  </ul>
+                  <div class="menu_side_area">
+                    <span id="menu-btn"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header close -->
+      <!-- content begin -->
+      <div class="no-bottom no-top" id="content">
+        <div id="top"></div>
+
+        <!-- page preloader begin -->
+        <div id="preloader">
+          <div class="preloader1"></div>
+        </div>
+        <!-- page preloader close -->
+
+        <!-- float text begin -->
+        <div class="float-text">
+          <div class="de_social-icons">
+            <a href="https://t.me/+79116310591"
+              ><i class="fa fa-telegram fa-lg"></i
+            ></a>
+            <a href="https://wa.me/79116310591"
+              ><i class="fa fa-whatsapp fa-lg"></i
+            ></a>
+            <a href="https://vk.com/quearterback"
+              ><i class="fa fa-vk fa-lg"></i
+            ></a>
+          </div>
+          <span>Написать мне</span>
+        </div>
+        <!-- float text close -->
+
+        <!-- load external content begin -->
+        <div id="de_modal">
+          <button class="button-close"></button>
+          <div class="d-modal-loader"></div>
+        </div>
+        <!-- load external content close -->
+
+        <section
+          class="no-top no-bottom jarallax position-relative"
+          aria-label="section"
+          data-video-src="mp4:video/local-video-1.mp4"
+        >
+          <div class="v-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-12">
+                  <h6 class="wow fadeInUp" data-wow-delay=".4s">
+                    <span class="id-color">Меня зовут Артём Гусев</span>
+                  </h6>
+                  <div class="spacer-10"></div>
+                  <div
+                    class="h1_big text-white wow fadeInUp"
+                    data-wow-delay=".6s"
+                  >
+                    <div class="typed-strings">
+                      <p>Фрилансер</p>
+                      <p>Программист</p>
+                      <p>Веб-разработчик</p>
+                    </div>
+                    <div class="typed"></div>
+                  </div>
+                </div>
+                <div class="spacer-20"></div>
+                <ul class="list_location wow fadeInUp" data-wow-delay=".8s">
+                  <li><span>Россия</span>Санкт-Петербург</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <a
+            href="#section-about"
+            class="mouse-icon-click scroll-to wow fadeInUp"
+            data-wow-delay=".8s"
+          >
+            <span class="mouse fadeScroll relative" data-scroll-speed="10">
+              <span class="scroll"></span>
+            </span>
+          </a>
+          <div class="de-gradient-edge-bottom"></div>
+        </section>
+        <section id="section-about">
+          <div class="container relative">
+            <div class="row">
+              <div class="col-md-12 text-center wow fadeInUp">
+                <h2>Обо мне</h2>
+                <div class="space-border"></div>
+              </div>
+              <div class="col-md-8 offset-md-2 text-center wow fadeInUp">
+                <p>
+                  Я разработчик веб-сайтов из Санкт-Петербурга. Люблю получать
+                  новый опыт и всегда учусь у своего окружения. Выполнил более
+                  55 проектов различной сложности. Некоторые из моих работ Вы
+                  можете посмотреть в разделе портфолио на этом веб-сайте. С
+                  нетерпением жду Ваших проектов и идей.
+                </p>
+              </div>
+              <div class="spacer-single"></div>
+              <div
+                class="col-lg-3 position-relative wow fadeIn"
+                data-wow-delay=".2s"
+                style="margin-bottom: 40px"
+              >
+                <div class="position-relative">
+                  <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="90">
+                      <div></div>
+                    </div>
+                    <h4>HTML</h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 position-relative wow fadeIn"
+                data-wow-delay=".4s"
+              >
+                <div class="position-relative">
+                  <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="75">
+                      <div></div>
+                    </div>
+                    <h4>CSS</h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 position-relative wow fadeIn"
+                data-wow-delay=".6s"
+              >
+                <div class="position-relative">
+                  <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="50">
+                      <div></div>
+                    </div>
+                    <h4>JavaScript</h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 position-relative wow fadeIn"
+                data-wow-delay=".8s"
+              >
+                <div class="position-relative">
+                  <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="25">
+                      <div></div>
+                    </div>
+                    <h4>ReactJs</h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 position-relative wow fadeIn"
+                data-wow-delay=".2s"
+              >
+                <div class="position-relative">
+                  <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="85">
+                      <div></div>
+                    </div>
+                    <h4>Figma</h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 position-relative wow fadeIn"
+                data-wow-delay=".2s"
+              >
+                <div class="position-relative">
+                  <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="85">
+                      <div></div>
+                    </div>
+                    <h4>Tilda</h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 position-relative wow fadeIn"
+                data-wow-delay=".2s"
+              >
+                <div class="position-relative">
+                  <div class="progressbar" data-animate="false">
+                    <div class="circle" data-percent="69">
+                      <div></div>
+                    </div>
+                    <h4>Wordpress</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="section-my-quote"
+          aria-label="section"
+          class="jarallax no-top no-bottom"
+        >
+          <div class="de-gradient-edge-top"></div>
+          <img
+            src="images/background/qoute-bg.png"
+            class="jarallax-img"
+            alt="artemgusev"
+          />
+          <div class="v-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-10 offset-md-1">
+                  <blockquote class="q-big wow fadeIn" data-wow-duration="3s">
+                    <i class="d-big icon_quotations"></i>
+                    Я проявляю искренний интерес к каждому проекту, поэтому я
+                    всегда стараюсь делать больше, чем от меня требуется.
+                    <span class="d-quote-by">Артем Гусев</span>
+                  </blockquote>
+                  <div class="spacer-double"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="de-gradient-edge-bottom"></div>
+        </section>
+        <section id="section-services" class="no-bottom">
+          <div class="container relative">
+            <div class="row">
+              <div class="col-md-12 text-center wow fadeInUp">
+                <h2>Как я работаю?</h2>
+                <div class="space-border"></div>
+              </div>
+              <div class="spacer-single"></div>
+              <div class="row g-0">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".2s">
+                  <div class="de_3d-box">
+                    <div class="d-inner">
+                      <i class="icon_comment id-color"></i>
+                      <div class="text">
+                        <h3>Обсуждение</h3>
+                        Заполнение брифа и согласование деталей работы.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".4s">
+                  <div class="de_3d-box">
+                    <div class="d-inner">
+                      <i class="icon_easel_alt id-color"></i>
+                      <div class="text">
+                        <h3>Проектирование</h3>
+                        Создание и согласование прототипа будущего сайта.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".6s">
+                  <div class="de_3d-box">
+                    <div class="d-inner">
+                      <i class="icon_tools id-color"></i>
+                      <div class="text">
+                        <h3>Дизайн и верстка сайта</h3>
+                        Создание и утверждение дизайна сайта. Верстка и
+                        программирование сайта.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-0">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".2s">
+                  <div class="de_3d-box">
+                    <div class="d-inner">
+                      <i class="icon_genius id-color"></i>
+                      <div class="text">
+                        <h3>Тестирование</h3>
+                        Тестирование, поиск и исправление ошибок в работе сайта.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".4s">
+                  <div class="de_3d-box">
+                    <div class="d-inner">
+                      <i class="icon_check_alt id-color"></i>
+                      <div class="text">
+                        <h3>Запуск</h3>
+                        Запуск сайта на Вашем хостинге и сдача проекта.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".6s">
+                  <div class="de_3d-box">
+                    <div class="d-inner">
+                      <i class="icon_shield_alt id-color"></i>
+                      <div class="text">
+                        <h3>Техническая поддержка</h3>
+                        После запуска остаюсь с Вами, дорабатываю проект при
+                        необходимости.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="section-portfolio" class="no-bottom">
+          <div class="container relative">
+            <div class="row">
+              <div class="col-md-12 text-center wow fadeInUp">
+                <h2>Портфолио</h2>
+                <div class="space-border"></div>
+              </div>
+            </div>
+            <div id="gallery" class="row sequence">
+              <h3 style="text-align: center; margin-bottom: 50px">
+                В разработке..
+              </h3>
+            </div>
+          </div>
+        </section>
+        <section id="section-fun-facts" aria-label="section" class="jarallax">
+          <div class="de-gradient-edge-top"></div>
+          <img
+            src="images/background/bg-2.png"
+            class="jarallax-img"
+            alt="sainp-background"
+          />
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 wow fadeIn" data-wow-delay="0">
+                <div class="de_count text-center">
+                  <h3
+                    class="timer"
+                    data-to="2200"
+                    data-speed="2500"
+                    style="font-size: 80px"
+                  >
+                    0
+                  </h3>
+                  <span>Часов работы</span>
+                </div>
+              </div>
+
+              <div class="col-md-3 wow fadeIn" data-wow-delay=".25s">
+                <div class="de_count text-center">
+                  <h3
+                    class="timer"
+                    data-to="55"
+                    data-speed="2500"
+                    style="font-size: 80px"
+                  >
+                    0
+                  </h3>
+                  <span>Выполненных проектов</span>
+                </div>
+              </div>
+
+              <div class="col-md-3 wow fadeIn" data-wow-delay=".5s">
+                <div class="de_count text-center">
+                  <h3
+                    class="timer"
+                    data-to="55"
+                    data-speed="2500"
+                    style="font-size: 80px"
+                  >
+                    0
+                  </h3>
+                  <span>Довольных клиентов</span>
+                </div>
+              </div>
+
+              <div class="col-md-3 wow fadeIn" data-wow-delay=".75s">
+                <div class="de_count text-center">
+                  <h3
+                    class="timer"
+                    data-to="24"
+                    data-speed="2500"
+                    style="font-size: 80px"
+                  >
+                    0
+                  </h3>
+                  <span
+                    >Место в категории "сайты под ключ" биржи фриланса
+                    FL.ru</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="de-gradient-edge-bottom"></div>
+        </section>
+        <section id="section-contact" class="jarallax">
+          <div class="de-gradient-edge-top"></div>
+          <!-- <img
+            src="images/background/bg-5.jpg"
+            class="jarallax-img"
+            alt="technology-wrapper"
+          /> -->
+          <div class="container z-index-1000">
+            <div class="row">
+              <div class="col-md-12 text-center wow fadeInUp">
+                <h2>Связаться со мной</h2>
+                <div class="space-border"></div>
+              </div>
+              <div class="col-lg-8 offset-lg-2 wow fadeInUp">
+                <div class="contact_form_wrapper">
+                  <form
+                    name="contactForm"
+                    id="contact_form"
+                    class="form-border"
+                    method="POST"
+                    action="send.php"
+                  >
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="field-set">
+                          <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="form-control"
+                            placeholder="Ваше имя"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="field-set">
+                          <input
+                            type="text"
+                            name="phone"
+                            id="phone"
+                            class="form-control"
+                            placeholder="Ваш номер телефона"
+                            required
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <div class="field-set">
+                        <textarea
+                          name="message"
+                          id="message"
+                          class="form-control"
+                          placeholder="Ваше сообщение"
+                          required
+                        ></textarea>
+                      </div>
+                      <div id="submit" class="mt10">
+                        <input
+                          type="submit"
+                          id="send_message"
+                          value="Отправить"
+                          class="btn-main"
+                        />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="spacer-double"></div>
+                <div class="row text-center wow fadeInUp">
+                  <div class="col-md-4">
+                    <div class="wm-1"></div>
+                    <h6>Email</h6>
+                    <p>
+                      <a href="mailto:web-gusev@mail.ru ">web-gusev@mail.ru</a>
+                    </p>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="wm-1"></div>
+                    <h6>Позвоните мне</h6>
+                    <p><a href="tel:89116310591">+7 911 631 05 91</a></p>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="wm-1"></div>
+                    <h6>Адрес</h6>
+                    <a href="#">Санкт-Петербург</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="de-gradient-edge-bottom"></div>
+        </section>
+      </div>
+      <!-- content close -->
+      <a href="#" id="back-to-top"></a>
+      <!-- footer begin -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="index.html">
+                <span class="copy">&copy; Copyright 2023 - Артём Гусев</span>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <div class="social-icons">
+                <a href="https://t.me/+79116310591"
+                  ><i class="fa fa-telegram fa-lg"></i
+                ></a>
+                <a href="https://wa.me/79116310591"
+                  ><i class="fa fa-whatsapp fa-lg"></i
+                ></a>
+                <a href="https://vk.com/quearterback"
+                  ><i class="fa fa-vk fa-lg"></i
+                ></a>
+                <a href="https://github.com/NumiaAA"
+                  ><i class="fa fa-github fa-lg"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <!-- <script src="js/porfolio.js"></script> -->
+
+    <script>
+      jQuery(document).ready(function () {
+        $(function () {
+          // jquery typed plugin
+          $(".typed").typed({
+            stringsElement: $(".typed-strings"),
+            typeSpeed: 100,
+            backDelay: 500,
+            loop: true,
+            contentType: "html", // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function () {
+              null;
+            },
+            resetCallback: function () {
+              newTyped();
+            },
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
